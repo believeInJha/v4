@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Flutter', 'Dart', 'Firebase', 'C++', 'Rest', 'WordPress'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,18 +141,17 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Apurv, a software engineer based in Bangalore, India.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
+              I enjoy creating things that live on the internet, whether that be mobile applications
+              or anything in between. My goal is to always build products that provide
               pixel-perfect, performant experiences.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
+              Persuing my B.E from <a href="https://bmsit.ac.in/">BMS Institute of Technology</a>, I
+              joined the engineering team at <a href="https://acadpal.com/">AcadPal</a> where I work
               on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
 
